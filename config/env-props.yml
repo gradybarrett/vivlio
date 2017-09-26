@@ -1,4 +1,2 @@
 development:
-  host: test
-  port: 27017
-  database: vivlio_dev
+  external_api.sample: https://jsonplaceholder.typicode.com
