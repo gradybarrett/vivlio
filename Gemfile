@@ -1,11 +1,15 @@
 source "https://rubygems.org/"
 
 # App Stack
-gem "sinatra", "~> 1.4"
+gem 'sinatra'
+gem 'mongo'
+# gem 'rack-protection'
 
-
-group :development do
-  gem "rake", "~> 10.0"
-  gem "minitest", "~> 5.2"
-  gem "rack-test", "~> 0.6"
+group :development, :test do
+  gem 'thin'
+  gem 'byebug'
+  gem 'log_buddy'
+  gem 'rake'
+  gem 'rspec'
+  gem 'rack-test'
 end
