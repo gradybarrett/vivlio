@@ -1,0 +1,4 @@
+development:
+  host: test
+  port: 27017
+  database: vivlio_dev
