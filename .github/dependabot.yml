@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "ruby:bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "02:40"
+      timezone: "America/Los_Angeles"
+    target-branch: "main"
