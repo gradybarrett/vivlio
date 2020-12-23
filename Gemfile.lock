@@ -10,7 +10,7 @@ GEM
     mongo (2.4.3)
       bson (>= 4.2.1, < 5.0.0)
     mustermann (1.0.1)
-    rack (2.0.3)
+    rack (2.2.3)
     rack-protection (2.0.0)
       rack
     rack-test (0.7.0)
@@ -50,7 +50,7 @@ DEPENDENCIES
   rack-test
   rake
   rspec
-  sinatra
+  sinatra (= 2.0.0)
   thin
 
 BUNDLED WITH
