@@ -1,7 +1,7 @@
 source "https://rubygems.org/"
 
 # App Stack
-gem 'sinatra', '2.1.0'
+gem 'sinatra', '3.0.2'
 gem 'mongo'
 # gem 'rack-protection'
 
